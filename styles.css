@@ -1,0 +1,33 @@
+body {
+    color: white;
+    margin: 0;
+    background-color: black;
+    }
+
+canvas {
+    width: 100%;
+    }
+
+.canvas-wrapper{
+    border-style: solid;
+    border-color: rgb(84, 50, 196);
+    background-image: url("https://www.desktopbackground.org/download/o/2013/03/15/545257_nasa-sombrero-galaxy-wallpapers-desktop-wallpapers-hd-wallpapers_2560x1600_h.jpg");
+    background-size: cover;
+    width: 90%;
+    margin: 30px;
+    padding: 0px;
+    }
+
+.center {
+    text-align: center;
+    }
+
+.game {
+    position: relative;
+    }
+
+#score{
+    position: absolute;
+    top:0px;
+    left:50px;
+    }
